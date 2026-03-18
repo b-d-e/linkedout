@@ -4,7 +4,7 @@
 
 A Chrome extension to translate coroporate linkedin slop into what the person is _really_ saying.
 
-With thanks to Kagi and this [tweet](https://x.com/NickBlow/status/2034051995762303073?s=20) for the inspiration.
+With thanks to [Kagi translate](https://translate.kagi.com/?from=linkedin&to=en) and this [tweet](https://x.com/NickBlow/status/2034051995762303073?s=20) for the inspiration.
 
 ## Install
 
