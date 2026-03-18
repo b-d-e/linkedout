@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="options-container">
+    <h1>LinkedOut Settings</h1>
+    <p class="subtitle">Corporate Jargon Translator</p>
+
+    <div class="form-group">
+      <label for="apiKey">OpenAI API Key</label>
+      <input type="password" id="apiKey" placeholder="sk-...">
+      <p class="hint">Stored locally. Only sent to OpenAI's API.</p>
+    </div>
+
+    <div class="form-group">
+      <label for="model">Model</label>
+      <select id="model">
+        <option value="gpt-4o-mini">gpt-4o-mini (recommended, cheapest)</option>
+        <option value="gpt-4o">gpt-4o (better quality, higher cost)</option>
+        <option value="gpt-4.1-mini">gpt-4.1-mini</option>
+        <option value="gpt-4.1-nano">gpt-4.1-nano (fastest, cheapest)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="autoTranslate">Mode</label>
+      <select id="autoTranslate">
+        <option value="auto">Auto (translate all posts)</option>
+        <option value="manual">Manual (click to translate)</option>
+      </select>
+    </div>
+
+    <button id="saveBtn" class="save-btn">Save Settings</button>
+    <div id="saveStatus" class="save-status"></div>
+
+    <hr>
+    <p class="cost-info">
+      Using gpt-4o-mini, ~100 posts costs roughly $0.01-0.03.
+      A typical daily session costs less than $0.01.
+    </p>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>
