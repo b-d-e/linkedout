@@ -3,8 +3,8 @@
 /* Small toggle button */
 .linkedout-toggle {
   position: absolute !important;
-  top: -32px !important;
-  right: 0 !important;
+  top: -26px !important;
+  right: 8px !important;
   border: none !important;
   background: none !important;
   cursor: pointer !important;
